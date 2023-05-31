@@ -3,8 +3,8 @@
   "type": "object",
   "$metadata": {
     "uris": {
-      "jsonLdContext": "https://raw.githubusercontent.com/xela7/json-schemas/master/examples/idscan/v1/idscan.jsonld",
-      "jsonSchema": "https://raw.githubusercontent.com/xela7/json-schemas/master/examples/idscan/v1/idscan.json"
+      "jsonLdContext": "https://raw.githubusercontent.com/NexeraProtocol/vc-schemas/main/examples/idscan/v1/idscan.jsonld",
+      "jsonSchema": "https://raw.githubusercontent.com/NexeraProtocol/vc-schemas/main/examples/idscan/v1/idscan.json"
     }
   },
   "required": [
