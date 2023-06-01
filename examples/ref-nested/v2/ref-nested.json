@@ -3,8 +3,8 @@
   "type": "object",
   "$metadata": {
     "uris": {
-      "jsonLdContext": "https://raw.githubusercontent.com/NexeraProtocol/vc-schemas/main/examples/ref-nested/v1/ref-nested.jsonld",
-      "jsonSchema": "https://raw.githubusercontent.com/NexeraProtocol/vc-schemas/main/examples/ref-nested/v1/ref-nested.json"
+      "jsonLdContext": "https://raw.githubusercontent.com/NexeraProtocol/vc-schemas/main/examples/ref-nested/v2/ref-nested.jsonld",
+      "jsonSchema": "https://raw.githubusercontent.com/NexeraProtocol/vc-schemas/main/examples/ref-nested/v2/ref-nested.json"
     }
   },
   "required": [
@@ -86,7 +86,7 @@
           "type": "string"
         },
         "personalDetails": {
-          "$ref": "https://raw.githubusercontent.com/NexeraProtocol/vc-schemas/main/examples/personal-details/v1/personal-details.json"
+          "type": "object"
         }
       },
       "required": ["journeyId", "personalDetails"]
