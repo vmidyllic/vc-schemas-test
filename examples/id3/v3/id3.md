@@ -12,7 +12,11 @@ Details related to the original data before any amendments.
 
 # personalDetails
 
-Personal information about the credential subject.
+Personal information about the credential subject. Vocab in personal-details.md
+
+## citizenship
+
+The citizenship of the individual.
 
 # id
 

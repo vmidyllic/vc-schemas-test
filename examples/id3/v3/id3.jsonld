@@ -27,7 +27,7 @@
             "@type": "@id"
           },
           "personalDetails": {
-            "@id": "vocab:personalDetails",
+            "@id": "https://raw.githubusercontent.com/NexeraProtocol/vc-schemas/main/examples/id3/v3/personal-details.md#",
             "@type": "@id"
           }
         }
