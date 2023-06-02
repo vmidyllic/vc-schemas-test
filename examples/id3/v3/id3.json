@@ -92,7 +92,57 @@
           "type": "object"
         },
         "personalDetails": {
-          "type": "object"
+          "type": "object",
+          "properties": {
+            "citizenship": {
+              "type": "string"
+            },
+            "documentType": {
+              "type": "string"
+            },
+            "firstName": {
+              "type": "string"
+            },
+            "lastName": {
+              "type": "string"
+            },
+            "gender": {
+              "type": "string"
+            },
+            "addressLine1": {
+              "type": "string",
+              "nullable": true
+            },
+            "addressLine2": {
+              "type": "string",
+              "nullable": true
+            },
+            "birthday": {
+              "type": "string",
+              "format": "date"
+            },
+            "placeOfBirth": {
+              "type": "string"
+            },
+            "countryOfResidence": {
+              "type": "string"
+            },
+            "age": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "citizenship",
+            "documentType",
+            "firstName",
+            "lastName",
+            "gender",
+            "birthday",
+            "placeOfBirth",
+            "countryOfResidence",
+            "age"
+          ],
+          "additionalProperties": false
         },
         "id": {
           "type": "string"
