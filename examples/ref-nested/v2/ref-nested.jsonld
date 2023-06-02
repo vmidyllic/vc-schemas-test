@@ -19,7 +19,7 @@
             "@type": "xsd:string"
           },
           "personalDetails": {
-            "@id": "https://raw.githubusercontent.com/NexeraProtocol/vc-schemas/main/examples/personal-details/v1/personal-details.json",
+            "@id": "vocab:personalDetails",
             "@type": "@id"
           }
         }
