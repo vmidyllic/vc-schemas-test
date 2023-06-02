@@ -86,7 +86,7 @@
           "type": "string"
         },
         "personalDetails": {
-          "$ref": "#/definitions/personalDetails"
+          "$ref": "#/credentialSubject/definitions/personalDetails"
         },
         "id": {
           "type": "string"
