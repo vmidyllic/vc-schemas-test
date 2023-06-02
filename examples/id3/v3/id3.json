@@ -7,7 +7,6 @@
       "jsonSchema": "https://raw.githubusercontent.com/NexeraProtocol/vc-schemas/main/examples/id3/v4/id3.json"
     }
   },
-  "definitions": {},
   "required": [
     "@context",
     "id",
@@ -288,35 +287,7 @@
         "personalDetails",
         "id"
       ],
-      "additionalProperties": false,
-      "definitions": {
-        "parsedKycData": {
-          "type": "object",
-          "properties": {
-            "data": {
-              "type": "object"
-            },
-            "authenticateSPResult": {
-              "type": "object"
-            },
-            "pepIntelligenceResult": {
-              "type": "array",
-              "items": { "type": "object" }
-            },
-            "sanctionsEnforcementsResult": {
-              "type": "array",
-              "items": { "type": "object" }
-            }
-          },
-          "required": [
-            "data",
-            "authenticateSPResult",
-            "pepIntelligenceResult",
-            "sanctionsEnforcementsResult"
-          ],
-          "additionalProperties": false
-        }
-      }
+      "additionalProperties": false
     }
   }
 }
