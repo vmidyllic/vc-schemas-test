@@ -87,7 +87,30 @@
           "type": "string"
         },
         "amendmentsData": {
-          "$ref": "#/definitions/parsedKycData"
+          "type": "object",
+          "properties": {
+            "data": {
+              "type": "object"
+            },
+            "authenticateSPResult": {
+              "type": "object"
+            },
+            "pepIntelligenceResult": {
+              "type": "array",
+              "items": { "type": "object" }
+            },
+            "sanctionsEnforcementsResult": {
+              "type": "array",
+              "items": { "type": "object" }
+            }
+          },
+          "required": [
+            "data",
+            "authenticateSPResult",
+            "pepIntelligenceResult",
+            "sanctionsEnforcementsResult"
+          ],
+          "additionalProperties": false
         },
         "originalData": {
           "type": "object"
