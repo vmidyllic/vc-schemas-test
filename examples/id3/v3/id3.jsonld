@@ -5,14 +5,14 @@
       "@protected": true,
       "id": "@id",
       "type": "@type",
-      "ID3-nested": {
-        "@id": "https://raw.githubusercontent.com/NexeraProtocol/vc-schemas/main/examples/id3/v2/id3.jsonld#ID3-nested",
+      "ID3-1": {
+        "@id": "https://raw.githubusercontent.com/NexeraProtocol/vc-schemas/main/examples/id3/v3/id3.jsonld#ID3-1",
         "@context": {
           "@version": 1.1,
           "@protected": true,
           "id": "@id",
           "type": "@type",
-          "vocab": "https://raw.githubusercontent.com/NexeraProtocol/vc-schemas/main/examples/id3/v2/id3.md#",
+          "vocab": "https://raw.githubusercontent.com/NexeraProtocol/vc-schemas/main/examples/id3/v3/id3.md#",
           "xsd": "http://www.w3.org/2001/XMLSchema#",
           "journeyId": {
             "@id": "vocab:journeyId",
@@ -27,7 +27,7 @@
             "@type": "@id"
           },
           "personalDetails": {
-            "@id": "https://raw.githubusercontent.com/NexeraProtocol/vc-schemas/main/examples/personal-details/v1/personal-details.json",
+            "@id": "vocab:personalDetails",
             "@type": "@id"
           }
         }
