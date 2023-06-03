@@ -113,20 +113,7 @@
                           "Name": { "type": "string" },
                           "Description": { "type": "string" },
                           "Comment": {
-                            "type": "object",
-                            "properties": {
-                              "GlobalItemCheckResultCode": {
-                                "type": "array",
-                                "items": {
-                                  "type": "object",
-                                  "properties": {
-                                    "Description": { "type": "string" },
-                                    "Code": { "type": "integer" }
-                                  },
-                                  "required": ["Description", "Code"]
-                                }
-                              }
-                            }
+                            "type": "object"
                           },
                           "Match": {
                             "type": "object"
