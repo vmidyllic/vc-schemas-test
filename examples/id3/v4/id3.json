@@ -7,7 +7,6 @@
       "jsonSchema": "https://raw.githubusercontent.com/NexeraProtocol/vc-schemas/main/examples/id3/v4/id3.json"
     }
   },
-  "definitions": {},
   "required": [
     "@context",
     "id",
@@ -93,7 +92,80 @@
               "type": "object"
             },
             "authenticateSPResult": {
-              "type": "object"
+              "type": "object",
+              "properties": {
+                "AuthenticationID": { "type": "string" },
+                "Timestamp": { "type": "string", "format": "date-time" },
+                "CustomerRef": { "type": "string" },
+                "ProfileID": { "type": "string" },
+                "ProfileName": { "type": "string" },
+                "ProfileVersion": { "type": "integer" },
+                "ProfileRevision": { "type": "integer" },
+                "ProfileState": { "type": "string" },
+                "ResultCodes": {
+                  "type": "object",
+                  "properties": {
+                    "GlobalItemCheckResultCodes": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "properties": {
+                          "Name": { "type": "string" },
+                          "Description": { "type": "string" },
+                          "Comment": {
+                            "type": "object"
+                          },
+                          "Match": {
+                            "type": "object"
+                          },
+                          "Warning": {
+                            "type": "object"
+                          },
+                          "ID": { "type": "integer" },
+                          "Pass": { "type": "string" },
+                          "Address": { "type": "string" },
+                          "Forename": { "type": "string" },
+                          "Surname": { "type": "string" },
+                          "DOB": { "type": "string" },
+                          "Alert": { "type": "string" },
+                          "SanctionsMatches": {
+                            "type": "object"
+                          }
+                        },
+                        "required": [
+                          "Name",
+                          "Description",
+                          "Comment",
+                          "ID",
+                          "Pass",
+                          "Address",
+                          "Forename",
+                          "Surname",
+                          "DOB",
+                          "Alert"
+                        ]
+                      }
+                    }
+                  }
+                },
+                "Score": { "type": "integer" },
+                "BandText": { "type": "string" },
+                "Country": { "type": "string" }
+              },
+              "required": [
+                "AuthenticationID",
+                "Timestamp",
+                "CustomerRef",
+                "ProfileID",
+                "ProfileName",
+                "ProfileVersion",
+                "ProfileRevision",
+                "ProfileState",
+                "ResultCodes",
+                "Score",
+                "BandText",
+                "Country"
+              ]
             },
             "pepIntelligenceResult": {
               "type": "array",
@@ -202,35 +274,7 @@
         "personalDetails",
         "id"
       ],
-      "additionalProperties": false,
-      "definitions": {
-        "parsedKycData": {
-          "type": "object",
-          "properties": {
-            "data": {
-              "type": "object"
-            },
-            "authenticateSPResult": {
-              "type": "object"
-            },
-            "pepIntelligenceResult": {
-              "type": "array",
-              "items": { "type": "object" }
-            },
-            "sanctionsEnforcementsResult": {
-              "type": "array",
-              "items": { "type": "object" }
-            }
-          },
-          "required": [
-            "data",
-            "authenticateSPResult",
-            "pepIntelligenceResult",
-            "sanctionsEnforcementsResult"
-          ],
-          "additionalProperties": false
-        }
-      }
+      "additionalProperties": false
     }
   }
 }
