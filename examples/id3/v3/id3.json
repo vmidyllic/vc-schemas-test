@@ -146,7 +146,9 @@
                         ]
                       }
                     }
-                  }
+                  },
+                  "required": ["GlobalItemCheckResultCodes"],
+                  "additionalProperties": false
                 },
                 "Score": { "type": "integer" },
                 "BandText": { "type": "string" },
