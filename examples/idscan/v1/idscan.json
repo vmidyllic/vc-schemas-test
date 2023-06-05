@@ -218,7 +218,6 @@
         "journeyId",
         "highLevelResult",
         "firstName",
-        "middleName",
         "lastName",
         "gender",
         "age",
