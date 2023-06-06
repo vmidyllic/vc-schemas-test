@@ -229,8 +229,6 @@
         "entryDate",
         "entryTime",
         "fullName",
-        "addressLine1",
-        "addressLine2",
         "birthDate",
         "birthPlace",
         "highLevelResultDetails",
