@@ -135,7 +135,6 @@
                         "required": [
                           "Name",
                           "Description",
-                          "Comment",
                           "ID",
                           "Pass",
                           "Address",
@@ -372,7 +371,6 @@
                         "required": [
                           "Name",
                           "Description",
-                          "Comment",
                           "ID",
                           "Pass",
                           "Address",
@@ -587,7 +585,7 @@
             },
             "birthday": {
               "type": "string",
-              "format": "date"
+              "format": "date-time"
             },
             "placeOfBirth": {
               "type": "string"
