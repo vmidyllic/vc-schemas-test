@@ -129,7 +129,10 @@
                           "DOB": { "type": "string" },
                           "Alert": { "type": "string" },
                           "SanctionsMatches": {
-                            "type": "object"
+                            "oneOf": [
+                              { "type": "object" },
+                              { "type": "string" }
+                            ]
                           }
                         },
                         "required": [
@@ -365,7 +368,10 @@
                           "DOB": { "type": "string" },
                           "Alert": { "type": "string" },
                           "SanctionsMatches": {
-                            "type": "object"
+                            "oneOf": [
+                              { "type": "object" },
+                              { "type": "string" }
+                            ]
                           }
                         },
                         "required": [
