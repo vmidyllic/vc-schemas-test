@@ -576,12 +576,10 @@
               "type": "string"
             },
             "addressLine1": {
-              "type": "string",
-              "nullable": true
+              "type": ["string", "null"]
             },
             "addressLine2": {
-              "type": "string",
-              "nullable": true
+              "type": ["string", "null"]
             },
             "birthday": {
               "type": "string",
