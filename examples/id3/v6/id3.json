@@ -89,7 +89,70 @@
           "type": "object",
           "properties": {
             "data": {
-              "type": "object"
+              "type": "object",
+              "properties": {
+                "citizenship": {
+                  "type": "string"
+                },
+                "documentType": {
+                  "type": "string"
+                },
+                "firstName": {
+                  "type": "string"
+                },
+                "lastName": {
+                  "type": "string"
+                },
+                "gender": {
+                  "type": "string"
+                },
+                "addressLine1": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "addressLine2": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "birthday": {
+                  "type": "string",
+                  "format": "date"
+                },
+                "placeOfBirth": {
+                  "type": "string"
+                },
+                "countryOfResidence": {
+                  "type": "string"
+                },
+                "age": {
+                  "type": "string"
+                },
+                "city": {
+                  "type": "string"
+                },
+                "province": {
+                  "type": "string"
+                },
+                "postalCode": {
+                  "type": "string"
+                },
+                "emailAddress": {
+                  "type": "string"
+                },
+                "phoneNumber": {
+                  "type": "string"
+                },
+                "countryOfBirth": {
+                  "type": "string"
+                },
+                "middleName": {
+                  "type": "string"
+                }
+              }
             },
             "authenticateSPResult": {
               "type": "object",
@@ -325,7 +388,37 @@
           "type": "object",
           "properties": {
             "data": {
-              "type": "object"
+              "type": "object",
+              "properties": {
+                "citizenship": {
+                  "type": "string"
+                },
+                "documentType": {
+                  "type": "string"
+                },
+                "firstName": {
+                  "type": "string"
+                },
+                "lastName": {
+                  "type": "string"
+                },
+                "gender": {
+                  "type": "string"
+                },
+                "addressLine1": {
+                  "type": ["string", "null"]
+                },
+                "addressLine2": {
+                  "type": ["string", "null"]
+                },
+                "birthday": {
+                  "type": "string",
+                  "format": "date"
+                },
+                "age": {
+                  "type": "string"
+                }
+              }
             },
             "authenticateSPResult": {
               "type": "object",
@@ -592,6 +685,27 @@
               "type": "string"
             },
             "age": {
+              "type": "string"
+            },
+            "city": {
+              "type": "string"
+            },
+            "province": {
+              "type": "string"
+            },
+            "postalCode": {
+              "type": "string"
+            },
+            "emailAddress": {
+              "type": "string"
+            },
+            "phoneNumber": {
+              "type": "string"
+            },
+            "countryOfBirth": {
+              "type": "string"
+            },
+            "middleName": {
               "type": "string"
             }
           },
