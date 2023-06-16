@@ -6,13 +6,13 @@
       "id": "@id",
       "type": "@type",
       "proofOfResidence": {
-        "@id": "https://raw.githubusercontent.com/NexeraProtocol/vc-schemas/main/examples/proofOfResidence/proofOfResidence.jsonld#proofOfResidence",
+        "@id": "https://raw.githubusercontent.com/NexeraProtocol/vc-schemas/main/examples/proofOfResidence/v1/proofOfResidence.jsonld#proofOfResidence",
         "@context": {
           "@version": 1.1,
           "@protected": true,
           "id": "@id",
           "type": "@type",
-          "vocab": "https://raw.githubusercontent.com/NexeraProtocol/vc-schemas/main/examples/proofOfResidence/proofOfResidence.md#",
+          "vocab": "https://raw.githubusercontent.com/NexeraProtocol/vc-schemas/main/examples/proofOfResidence/v1/proofOfResidence.md#",
           "xsd": "http://www.w3.org/2001/XMLSchema#",
           "entryDate": {
             "@id": "vocab:entryDate",
