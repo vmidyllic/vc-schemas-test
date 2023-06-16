@@ -5,8 +5,8 @@
       "@protected": true,
       "id": "@id",
       "type": "@type",
-      "ProofOfResidencev5": {
-        "@id": "https://raw.githubusercontent.com/NexeraProtocol/vc-schemas/main/examples/proofOfResidence/v5/proofOfResidence.jsonld#ProofOfResidencev5",
+      "ProofOfResidenceV5": {
+        "@id": "https://raw.githubusercontent.com/NexeraProtocol/vc-schemas/main/examples/proofOfResidence/v5/proofOfResidence.jsonld#ProofOfResidenceV5",
         "@context": {
           "@version": 1.1,
           "@protected": true,
