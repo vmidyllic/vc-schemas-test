@@ -14,10 +14,6 @@
           "type": "@type",
           "vocab": "https://raw.githubusercontent.com/NexeraProtocol/vc-schemas/main/examples/proofOfResidence/v1/proofOfResidence.md#",
           "xsd": "http://www.w3.org/2001/XMLSchema#",
-          "entryDate": {
-            "@id": "vocab:entryDate",
-            "@type": "xsd:integer"
-          },
           "journeyId": {
             "@id": "vocab:journeyId",
             "@type": "xsd:string"
