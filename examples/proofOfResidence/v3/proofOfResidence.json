@@ -3,8 +3,8 @@
   "type": "object",
   "$metadata": {
     "uris": {
-      "jsonLdContext": "https://raw.githubusercontent.com/NexeraProtocol/vc-schemas/main/examples/proofOfResidence/v2/proofOfResidence.jsonld",
-      "jsonSchema": "https://raw.githubusercontent.com/NexeraProtocol/vc-schemas/main/examples/proofOfResidence/v2/proofOfResidence.json"
+      "jsonLdContext": "https://raw.githubusercontent.com/NexeraProtocol/vc-schemas/main/examples/proofOfResidence/v3/proofOfResidence.jsonld",
+      "jsonSchema": "https://raw.githubusercontent.com/NexeraProtocol/vc-schemas/main/examples/proofOfResidence/v3/proofOfResidence.json"
     }
   },
   "required": [
