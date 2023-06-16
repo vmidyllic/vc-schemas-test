@@ -81,7 +81,7 @@
     },
     "credentialSubject": {
       "type": "object",
-      "required": ["id", "entryDate"],
+      "required": ["id", "journeyId", "base64", "name", "type"],
       "properties": {
         "id": {
           "title": "Credential Subject ID",
