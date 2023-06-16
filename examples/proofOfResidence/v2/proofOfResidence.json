@@ -81,7 +81,6 @@
     },
     "credentialSubject": {
       "type": "object",
-      "required": ["id", "journeyId", "base64", "name", "type"],
       "properties": {
         "id": {
           "title": "Credential Subject ID",
@@ -108,7 +107,8 @@
           "description": "Type of the document (e.g. image/jpeg, image/png)",
           "type": "string"
         }
-      }
+      },
+      "required": ["id", "journeyId", "base64", "name", "type"]
     }
   }
 }

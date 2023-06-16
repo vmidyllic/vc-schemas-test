@@ -5,8 +5,8 @@
       "@protected": true,
       "id": "@id",
       "type": "@type",
-      "proofOfResidence": {
-        "@id": "https://raw.githubusercontent.com/NexeraProtocol/vc-schemas/main/examples/proofOfResidence/v2/proofOfResidence.jsonld#proofOfResidence",
+      "ProofOfResidence": {
+        "@id": "https://raw.githubusercontent.com/NexeraProtocol/vc-schemas/main/examples/proofOfResidence/v2/proofOfResidence.jsonld#ProofOfResidence",
         "@context": {
           "@version": 1.1,
           "@protected": true,
@@ -29,7 +29,7 @@
           "type": {
             "@id": "vocab:type",
             "@type": "xsd:string"
-          },
+          }
         }
       }
     }
