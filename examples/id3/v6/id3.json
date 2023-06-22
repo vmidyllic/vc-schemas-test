@@ -282,7 +282,7 @@
                           "Month": { "type": "integer" },
                           "Year": { "type": "integer" }
                         },
-                        "required": ["DateType", "Day", "Month", "Year"]
+                        "required": ["DateType", "Year"]
                       }
                     },
                     "required": ["GlobalSanctionsDate"]
@@ -674,7 +674,7 @@
                           "Month": { "type": "integer" },
                           "Year": { "type": "integer" }
                         },
-                        "required": ["DateType", "Day", "Month", "Year"]
+                        "required": ["DateType", "Year"]
                       }
                     },
                     "required": ["GlobalSanctionsDate"]
