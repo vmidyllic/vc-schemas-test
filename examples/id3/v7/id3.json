@@ -418,13 +418,13 @@
                         }
                       }
                     }
-                  }
+                  },
                   "additionalProperties": false
                 },
                 "Score": { "type": "integer" },
                 "BandText": { "type": "string" },
                 "Country": { "type": "string" }
-              },
+              }
             },
             "pepIntelligenceResult": {
               "type": "array",
