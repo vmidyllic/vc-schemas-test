@@ -218,8 +218,7 @@
                         "type": "array",
                         "items": { "type": "string" }
                       }
-                    },
-                    "required": ["a:string"]
+                    }
                   },
                   "SanctionsAddresses": {
                     "type": "object",
@@ -288,8 +287,7 @@
                         "type": "array",
                         "items": { "type": "integer" }
                       }
-                    },
-                    "required": ["a:string"]
+                    }
                   },
                   "Aliases": {
                     "type": "object",
@@ -298,8 +296,7 @@
                         "type": "array",
                         "items": { "type": "string" }
                       }
-                    },
-                    "required": ["a:string"]
+                    }
                   },
                   "SanctionsAddresses": {
                     "type": "object",
@@ -439,8 +436,7 @@
                         "type": "array",
                         "items": { "type": "string" }
                       }
-                    },
-                    "required": ["a:string"]
+                    }
                   },
                   "SanctionsAddresses": {
                     "type": "object",
@@ -509,8 +505,7 @@
                         "type": "array",
                         "items": { "type": "integer" }
                       }
-                    },
-                    "required": ["a:string"]
+                    }
                   },
                   "Aliases": {
                     "type": "object",
@@ -519,8 +514,7 @@
                         "type": "array",
                         "items": { "type": "string" }
                       }
-                    },
-                    "required": ["a:string"]
+                    }
                   },
                   "SanctionsAddresses": {
                     "type": "object",
