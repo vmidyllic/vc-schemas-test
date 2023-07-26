@@ -5,7 +5,9 @@
     "uris": {
       "jsonLdContext": "https://raw.githubusercontent.com/NexeraProtocol/vc-schemas/development/examples/id3/id3.jsonld",
       "jsonSchema": "https://raw.githubusercontent.com/NexeraProtocol/vc-schemas/development/examples/id3/id3.json"
-    }
+    },
+    "type": "id3",
+    "version": "1.0"
   },
   "required": [
     "@context",

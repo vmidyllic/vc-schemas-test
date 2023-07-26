@@ -5,7 +5,9 @@
     "uris": {
       "jsonLdContext": "https://raw.githubusercontent.com/NexeraProtocol/vc-schemas/development/examples/idScanPassport/v1/idScanPassport.jsonld",
       "jsonSchema": "https://raw.githubusercontent.com/NexeraProtocol/vc-schemas/development/examples/idScanPassport/v1/idScanPassport.json"
-    }
+    },
+    "type": "idScanPassport",
+    "version": "1.0"
   },
   "required": [
     "@context",
