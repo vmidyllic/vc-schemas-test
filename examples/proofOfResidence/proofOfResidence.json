@@ -6,7 +6,7 @@
       "jsonLdContext": "https://raw.githubusercontent.com/NexeraProtocol/vc-schemas/development/examples/proofOfResidence/proofOfResidence.jsonld",
       "jsonSchema": "https://raw.githubusercontent.com/NexeraProtocol/vc-schemas/development/examples/proofOfResidence/proofOfResidence.json"
     },
-    "type": "proofOfResidence",
+    "type": "ProofOfResidence",
     "version": "1.0"
   },
   "required": [

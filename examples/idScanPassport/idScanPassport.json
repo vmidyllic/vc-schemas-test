@@ -6,7 +6,7 @@
       "jsonLdContext": "https://raw.githubusercontent.com/NexeraProtocol/vc-schemas/development/examples/idScanPassport/v1/idScanPassport.jsonld",
       "jsonSchema": "https://raw.githubusercontent.com/NexeraProtocol/vc-schemas/development/examples/idScanPassport/v1/idScanPassport.json"
     },
-    "type": "idScanPassport",
+    "type": "IDScanPassport",
     "version": "1.0"
   },
   "required": [
