@@ -3,9 +3,11 @@
   "type": "object",
   "$metadata": {
     "uris": {
-      "jsonLdContext": "https://raw.githubusercontent.com/NexeraProtocol/vc-schemas/main/examples/idScanSelfie/v1/idScanSelfie.jsonld",
-      "jsonSchema": "https://raw.githubusercontent.com/NexeraProtocol/vc-schemas/main/examples/idScanSelfie/v1/idScanSelfie.json"
-    }
+      "jsonLdContext": "https://raw.githubusercontent.com/NexeraProtocol/vc-schemas/development/examples/idScanSelfie/idScanSelfie.jsonld",
+      "jsonSchema": "https://raw.githubusercontent.com/NexeraProtocol/vc-schemas/development/examples/idScanSelfie/idScanSelfie.json"
+    },
+    "type": "IDScanSelfie",
+    "version": "1.0"
   },
   "required": [
     "@context",
