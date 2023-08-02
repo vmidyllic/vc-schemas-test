@@ -3,9 +3,11 @@
   "type": "object",
   "$metadata": {
     "uris": {
-      "jsonLdContext": "https://raw.githubusercontent.com/NexeraProtocol/vc-schemas/main/examples/idScanPassport/v1/idScanPassport.jsonld",
-      "jsonSchema": "https://raw.githubusercontent.com/NexeraProtocol/vc-schemas/main/examples/idScanPassport/v1/idScanPassport.json"
-    }
+      "jsonLdContext": "https://raw.githubusercontent.com/NexeraProtocol/vc-schemas/development/examples/idScanPassport/idScanPassport.jsonld",
+      "jsonSchema": "https://raw.githubusercontent.com/NexeraProtocol/vc-schemas/development/examples/idScanPassport/idScanPassport.json"
+    },
+    "type": "IDScanPassport",
+    "version": "1.0"
   },
   "required": [
     "@context",
