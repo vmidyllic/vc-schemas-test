@@ -3,8 +3,8 @@
   "type": "object",
   "$metadata": {
     "uris": {
-      "jsonLdContext": "https://raw.githubusercontent.com/NexeraProtocol/vc-schemas/kris-test/examples/idscan-kris/idscan-kris.jsonld",
-      "jsonSchema": "https://raw.githubusercontent.com/NexeraProtocol/vc-schemas/kris-test/examples/idscan-kris/idscan-kris.json"
+      "jsonLdContext": "https://raw.githubusercontent.com/NexeraProtocol/vc-schemas/kris-test/examples/idscan-kris2/idscan-kris.jsonld",
+      "jsonSchema": "https://raw.githubusercontent.com/NexeraProtocol/vc-schemas/kris-test/examples/idscan-kris2/idscan-kris.json"
     },
     "type": "IDScan-kris",
     "version": "1.1"
