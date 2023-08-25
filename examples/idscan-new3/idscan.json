@@ -4,7 +4,7 @@
       "jsonLdContext": "https://raw.githubusercontent.com/NexeraProtocol/vc-schemas/kris-test/examples/idscan-new2/idscan.jsonld"
     },
     "type": "IDScan",
-    "version": "1.2"
+    "version": "1.3"
   },
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "description": "IDscan schema",
@@ -214,6 +214,34 @@
                 "description": "State of the quality check item",
                 "title": "Quality Check Item State",
                 "type": "string"
+              }
+            }
+          }
+        },
+        "validationDetails": {
+          "description": "Details of the validation performed",
+          "title": "Validation Details",
+          "type": "array",
+          "nullable": true,
+          "items": {
+            "description": "Details of a specific validation item",
+            "title": "Validation Item",
+            "type": "object",
+            "properties": {
+              "name": {
+                "description": "Name of the validation item",
+                "title": "Validation Item Name",
+                "type": "string"
+              },
+              "description": {
+                "description": "Detailed description of the validation item",
+                "title": "Validation Item Description",
+                "type": "string"
+              },
+              "result": {
+                "description": "Result code of the validation",
+                "title": "Validation Result Code",
+                "type": "integer"
               }
             }
           }
