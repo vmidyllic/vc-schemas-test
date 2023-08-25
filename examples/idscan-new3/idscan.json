@@ -1,7 +1,7 @@
 {
   "$metadata": {
     "uris": {
-      "jsonLdContext": "https://raw.githubusercontent.com/NexeraProtocol/vc-schemas/kris-test/examples/idscan-new2/idscan.jsonld"
+      "jsonLdContext": "https://raw.githubusercontent.com/NexeraProtocol/vc-schemas/kris-test/examples/idscan-new3/idscan.jsonld"
     },
     "type": "IDScan",
     "version": "1.3"
