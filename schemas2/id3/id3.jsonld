@@ -27,7 +27,8 @@
             "@id": "polygon-vocab:personalDetails",
             "@type": "@json"
           }
-        }
+        },
+       "@id": "urn:uuid:03067b76-45e8-11ee-be56-0242ac120002
       }
     }
   ]

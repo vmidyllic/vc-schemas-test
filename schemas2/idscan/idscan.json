@@ -1,7 +1,7 @@
 {
   "$metadata": {
     "uris": {
-      "jsonLdContext": "https://raw.githubusercontent.com/NexeraProtocol/vc_schemas/NEXID-1402-polygon-id-schema-builder-integration/schemas_tes1/idscan/idscan.jsonld"
+      "jsonLdContext": "https://raw.githubusercontent.com/NexeraProtocol/vc-schemas/NEXID-1402-polygon-id-schema-builder-integration/schemas2/idscan/idscan.jsonld"
     },
     "type": "IDScan",
     "version": "1.7"
