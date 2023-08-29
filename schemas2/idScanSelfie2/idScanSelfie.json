@@ -1,7 +1,7 @@
 {
   "$metadata": {
     "uris": {
-      "jsonLdContext": "https://raw.githubusercontent.com/NexeraProtocol/vc-schemas/NEXID-1402-polygon-id-schema-builder-integration/schemas2/idScanSelfie/idScanSelfie.jsonld"
+      "jsonLdContext": "https://raw.githubusercontent.com/NexeraProtocol/vc-schemas/NEXID-1402-polygon-id-schema-builder-integration/schemas2/idScanSelfie2/idScanSelfie.jsonld"
     },
     "type": "IDScanSelfie",
     "version": "1.7"
