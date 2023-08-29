@@ -63,14 +63,12 @@
                 "addressLine1":{
                   "title":"Address Line 1",
                   "description":"Address line 1 of the credential subject",
-                  "type":"string",
-                  "nullable":true
+                  "type":"string"
                 },
                 "addressLine2":{
                   "title":"Address Line 2",
                   "description":"Address line 2 of the credential subject",
-                  "type":"string",
-                  "nullable":true
+                  "type":"string"
                 },
                 "birthday":{
                   "title":"Birthday",
@@ -550,14 +548,12 @@
                 "addressLine1":{
                   "title":"Address Line 1",
                   "description":"Address line 1 of the credential subject",
-                  "type":"string",
-                  "nullable":true
+                  "type":"string"
                 },
                 "addressLine2":{
                   "title":"Address Line 2",
                   "description":"Address line 2 of the credential subject",
-                  "type":"string",
-                  "nullable":true
+                  "type":"string"
                 },
                 "birthday":{
                   "title":"Birthday",
@@ -863,12 +859,10 @@
               "type":"string"
             },
             "addressLine1":{
-              "type":"string",
-              "nullable":true
+              "type":"string"
             },
             "addressLine2":{
-              "type":"string",
-              "nullable":true
+              "type":"string"
             },
             "birthday":{
               "type":"string",

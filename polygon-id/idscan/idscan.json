@@ -35,112 +35,94 @@
         "firstName": {
           "description": "First name of the credential subject",
           "title": "First Name",
-          "type": "string",
-          "nullable": true
+          "type": "string"
         },
         "middleName": {
           "description": "Middle name of the credential subject",
           "title": "Middle Name",
-          "type": "string",
-          "nullable": true
+          "type": "string"
         },
         "lastName": {
           "description": "Last name of the credential subject",
           "title": "Last Name",
-          "type": "string",
-          "nullable": true
+          "type": "string"
         },
         "gender": {
           "description": "Gender of the credential subject",
           "title": "Gender",
-          "type": "string",
-          "nullable": true
+          "type": "string"
         },
         "age": {
           "description": "Age of the credential subject",
           "title": "Age",
-          "type": "number",
-          "nullable": true
+          "type": "number"
         },
         "citizenship": {
           "description": "Citizenship status of the credential subject",
           "title": "Citizenship",
-          "type": "string",
-          "nullable": true
+          "type": "string"
         },
         "documentCategory": {
           "description": "Category of the document provided by the credential subject",
           "title": "Document Category",
-          "type": "string",
-          "nullable": true
+          "type": "string"
         },
         "documentName": {
           "description": "Name of the document provided by the credential subject",
           "title": "Document Name",
-          "type": "string",
-          "nullable": true
+          "type": "string"
         },
         "documentSide": {
           "description": "Side of the document provided by the credential subject",
           "title": "Document Side",
-          "type": "string",
-          "nullable": true
+          "type": "string"
         },
         "documentType": {
           "description": "Type of the document provided by the credential subject",
           "title": "Document Type",
-          "type": "string",
-          "nullable": true
+          "type": "string"
         },
         "entryDate": {
           "description": "Entry date associated with the credential",
           "title": "Entry Date",
           "type": "string",
-          "format": "date",
-          "nullable": true
+          "format": "date"
         },
         "entryTime": {
           "description": "Entry time associated with the credential",
           "title": "Entry Time",
-          "type": "string",
-          "nullable": true
+          "type": "string"
         },
         "fullName": {
           "description": "Full name of the credential subject",
           "title": "Full Name",
-          "type": "string",
-          "nullable": true
+          "type": "string"
         },
         "addressLine1": {
           "description": "First line of the address of the credential subject",
           "title": "Address Line 1",
-          "type": "string",
-          "nullable": true
+          "type": "string"
         },
         "addressLine2": {
           "description": "Second line of the address of the credential subject",
           "title": "Address Line 2",
-          "type": "string",
-          "nullable": true
+          "type": "string"
         },
         "birthDate": {
           "description": "Date of birth of the credential subject",
           "title": "Birth Date",
           "type": "string",
-          "format": "date",
-          "nullable": true
+          "format": "date"
         },
         "birthPlace": {
           "description": "Place of birth of the credential subject",
           "title": "Birth Place",
-          "type": "string",
-          "nullable": true
+          "type": "string"
         },
         "highLevelResultDetails": {
           "description": "Detailed results of the high level KYC check",
           "title": "High Level Result Details",
           "type": "object",
-          "nullable": true,
           "properties": {
             "documentOverallValidation": {
               "description": "Overall validation status of the document",
@@ -182,14 +164,12 @@
         "faceMatchScore": {
           "description": "Score for the face match validation",
           "title": "Face Match Score",
-          "type": "string",
-          "nullable": true
+          "type": "string"
         },
         "qualityCheckDetails": {
           "description": "Details of quality checks performed",
           "title": "Quality Check Details",
           "type": "array",
-          "nullable": true,
           "items": {
             "description": "Quality check item details",
             "title": "Quality Check Item",
@@ -222,7 +202,6 @@
           "description": "Details of the validation performed",
           "title": "Validation Details",
           "type": "array",
-          "nullable": true,
           "items": {
             "description": "Details of a specific validation item",
             "title": "Validation Item",
