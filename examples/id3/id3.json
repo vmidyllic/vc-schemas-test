@@ -1,139 +1,159 @@
 {
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
   "$metadata": {
     "uris": {
-      "jsonLdContext": "https://raw.githubusercontent.com/NexeraProtocol/vc-schemas/development/examples/id3/id3.jsonld"
+      "jsonLdContext": "https://raw.githubusercontent.com/NexeraProtocol/vc-schemas/NEXID-1402-polygon-id-schema-builder-integration/examples/id3/id3.jsonld",
+      "jsonSchema": "https://raw.githubusercontent.com/NexeraProtocol/vc-schemas/NEXID-1402-polygon-id-schema-builder-integration/examples/id3/id3.json"
     },
     "type": "ID3",
-    "version": "2.0"
+    "version": "1.0"
   },
-  "$schema": "http://json-schema.org/draft-07/schema#",
-  "description": "ID3 Credential",
-  "title": "ID3",
+  "required": [
+    "@context",
+    "id",
+    "type",
+    "issuanceDate",
+    "credentialSubject",
+    "credentialSchema",
+    "credentialStatus",
+    "issuer"
+  ],
   "properties": {
-    "credentialSubject": {
-      "description": "Stores the data of the credential",
-      "title": "Credential Subject",
+    "@context": {
+      "type": ["string", "array", "object"]
+    },
+    "id": {
+      "type": "string"
+    },
+    "type": {
+      "type": ["string", "array"],
+      "items": {
+        "type": "string"
+      }
+    },
+    "issuer": {
+      "type": ["string", "object"],
+      "format": "uri",
+      "required": ["id"],
+      "properties": {
+        "id": {
+          "type": "string",
+          "format": "uri"
+        }
+      }
+    },
+    "issuanceDate": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "expirationDate": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "credentialSchema": {
       "type": "object",
-      "required": [
-        "journeyId",
-        "amendmentsData",
-        "originalData",
-        "personalDetails",
-        "id"
-      ],
+      "required": ["id", "type"],
+      "properties": {
+        "id": {
+          "type": "string",
+          "format": "uri"
+        },
+        "type": {
+          "type": "string"
+        }
+      }
+    },
+    "subjectPosition": {
+      "type": "string",
+      "enum": ["none", "index", "value"]
+    },
+    "merklizationRootPosition": {
+      "type": "string",
+      "enum": ["none", "index", "value"]
+    },
+    "revNonce": {
+      "type": "integer"
+    },
+    "version": {
+      "type": "integer"
+    },
+    "updatable": {
+      "type": "boolean"
+    },
+    "credentialSubject": {
+      "type": "object",
       "properties": {
         "journeyId": {
-          "type": "string",
-          "title": "Journey ID",
-          "description": "The ID of the journey"
+          "type": "string"
         },
         "amendmentsData": {
           "type": "object",
-          "title": "Amendments Data",
-          "description": "Data amended by the user",
           "properties": {
             "data": {
               "type": "object",
               "properties": {
                 "citizenship": {
-                  "title": "Citizenship",
-                    "description": "The citizenship of the user",
                   "type": "string"
                 },
                 "documentType": {
-                    "title": "Document Type",
-                    "description": "The type of document of the user",
                   "type": "string"
                 },
                 "firstName": {
-                    "title": "First Name",
-                    "description": "The first name of the user",
                   "type": "string"
                 },
                 "lastName": {
-                    "title": "Last Name",
-                    "description": "The last name of the user",
                   "type": "string"
                 },
                 "gender": {
-                  "title": "Gender",
-                  "description": "User's gender",
                   "type": "string"
                 },
                 "addressLine1": {
-                  "title": "Address Line 1",
-                    "description": "The first line of the user's address",
                   "type": "string",
                   "nullable": true
                 },
                 "addressLine2": {
-                    "title": "Address Line 2",
-                        "description": "The second line of the user's address",
                   "type": "string",
                   "nullable": true
                 },
                 "birthday": {
-                    "title": "Birthday",
-                        "description": "The birthday of the user",
                   "type": "string",
                   "format": "date"
                 },
                 "placeOfBirth": {
-                    "title": "Place of Birth",
-                        "description": "The place of birth of the user",
                   "type": "string"
                 },
                 "countryOfResidence": {
-                    "title": "Country of Residence",
-                        "description": "The country of residence of the user",
                   "type": "string"
                 },
                 "age": {
-                    "title": "Age",
-                        "description": "The age of the user",
-                  "type": "number"
+                  "type": "string"
                 },
                 "city": {
-                    "title": "City",
-                        "description": "The city of the user",
                   "type": "string"
                 },
                 "province": {
-                    "title": "Province",
-                        "description": "The province of the user",
                   "type": "string"
                 },
                 "postalCode": {
-                    "title": "Postal Code",
-                        "description": "The postal code of the user",
                   "type": "string"
                 },
                 "emailAddress": {
-                    "title": "Email Address",
-                        "description": "The email address of the user",
                   "type": "string"
                 },
                 "phoneNumber": {
-                    "title": "Phone Number",
-                        "description": "The phone number of the user",
                   "type": "string"
                 },
                 "countryOfBirth": {
-                    "title": "Country of Birth",
-                        "description": "The country of birth of the user",
                   "type": "string"
                 },
                 "middleName": {
-                    "title": "Middle Name",
-                        "description": "The middle name of the user",
                   "type": "string"
                 }
               }
             },
             "authenticateSPResult": {
               "type": "object",
-              "title": "Authenticate SP Result",
-              "description": "The result of the authenticate SP check",
               "properties": {
                 "AuthenticationID": { "type": "string" },
                 "Timestamp": { "type": "string", "format": "date-time" },
@@ -684,78 +704,14 @@
         "id": {
           "type": "string"
         }
-      }
-    },
-    "@context": {
-      "type": ["string", "array", "object"]
-    },
-    "id": {
-      "type": "string"
-    },
-    "type": {
-      "type": ["string", "array"],
-      "items": {
-        "type": "string"
-      }
-    },
-    "issuer": {
-      "type": ["string", "object"],
-      "format": "uri",
-      "required": ["id"],
-      "properties": {
-        "id": {
-          "type": "string",
-          "format": "uri"
-        }
-      }
-    },
-    "issuanceDate": {
-      "type": "string",
-      "format": "date-time"
-    },
-    "expirationDate": {
-      "type": "string",
-      "format": "date-time"
-    },
-    "credentialSchema": {
-      "type": "object",
-      "required": ["id", "type"],
-      "properties": {
-        "id": {
-          "type": "string",
-          "format": "uri"
-        },
-        "type": {
-          "type": "string"
-        }
-      }
-    },
-    "subjectPosition": {
-      "type": "string",
-      "enum": ["none", "index", "value"]
-    },
-    "merklizationRootPosition": {
-      "type": "string",
-      "enum": ["none", "index", "value"]
-    },
-    "revNonce": {
-      "type": "integer"
-    },
-    "version": {
-      "type": "integer"
-    },
-    "updatable": {
-      "type": "boolean"
+      },
+      "required": [
+        "journeyId",
+        "amendmentsData",
+        "originalData",
+        "personalDetails",
+        "id"
+      ]
     }
-  },
-  "required": [
-    "credentialSubject",
-    "@context",
-    "id",
-    "issuanceDate",
-    "issuer",
-    "type",
-    "credentialSchema"
-  ],
-  "type": "object"
+  }
 }
