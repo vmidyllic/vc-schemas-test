@@ -203,8 +203,7 @@
                         }
                       }
                     }
-                  },
-                  "additionalProperties": false
+                  }
                 },
                 "Score": { "type": "integer" },
                 "BandText": { "type": "string" },
@@ -355,8 +354,7 @@
                 }
               }
             }
-          },
-          "additionalProperties": false
+          }
         },
         "originalData": {
           "type": "object",
@@ -439,8 +437,7 @@
                         }
                       }
                     }
-                  },
-                  "additionalProperties": false
+                  }
                 },
                 "Score": { "type": "integer" },
                 "BandText": { "type": "string" },
@@ -575,8 +572,7 @@
                 }
               }
             }
-          },
-          "additionalProperties": false
+          }
         },
         "personalDetails": {
           "type": "object",
@@ -638,8 +634,7 @@
             "middleName": {
               "type": "string"
             }
-          },
-          "additionalProperties": false
+          }
         },
         "id": {
           "type": "string"
