@@ -27,9 +27,9 @@
             "@id":"polygon-vocab:type",
             "@type":"xsd:string"
           }
-        }
-      },
-      "@id":"urn:uuid:362d5804-a195-4549-b15b-edb5ef50d203"
+        },
+        "@id":"urn:uuid:362d5804-a195-4549-b15b-edb5ef50d203"
+      }
     }
   ]
 }
