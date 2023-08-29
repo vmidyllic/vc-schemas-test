@@ -108,7 +108,7 @@
               },
               "state":{
                 "@id":"polygon-vocab:qualityCheckDetails.state",
-                "@type":"xsd:string"
+                "@type":"xsd:integer"
               }
             }
           },

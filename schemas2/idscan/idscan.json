@@ -213,7 +213,7 @@
               "state": {
                 "description": "State of the quality check item",
                 "title": "Quality Check Item State",
-                "type": "string"
+                "type": "number"
               }
             }
           }
