@@ -11,7 +11,9 @@
   "title": "IDScanSelfie",
   "properties": {
     "credentialSubject": {
-      "type": "object",
+      "description":"Stores the data of the credential",
+      "title":"Credential subject",
+      "type":"object",
       "properties": {
         "id": {
           "type": "string"
