@@ -1,180 +1,36 @@
 {
-  "@context":[
+  "@context": [
     {
-      "@protected":true,
-      "@version":1.1,
-      "id":"@id",
-      "type":"@type",
-      "ID3":{
-        "@context":{
-          "@propagate":true,
-          "@protected":true,
-          "polygon-vocab":"urn:uuid:9a4a6f9f-9332-439a-887a-35c401359bf4#",
-          "xsd":"http://www.w3.org/2001/XMLSchema#",
-          "journeyId":{
-            "@id":"polygon-vocab:journeyId",
-            "@type":"xsd:string"
+      "@version": 1.1,
+      "@protected": true,
+      "id": "@id",
+      "type": "@type",
+      "ID3": {
+        "@id": "https://raw.githubusercontent.com/NexeraProtocol/vc-schemas/NEXID-1402-polygon-id-schema-builder-integration/examples/id3/id3.jsonld#ID3",
+        "@context": {
+          "@version": 1.1,
+          "@protected": true,
+          "id": "@id",
+          "type": "@type",
+          "vocab": "https://raw.githubusercontent.com/NexeraProtocol/vc-schemas/NEXID-1402-polygon-id-schema-builder-integration/examples/id3/id3.md#",
+          "xsd": "http://www.w3.org/2001/XMLSchema#",
+          "journeyId": {
+            "@id": "vocab:journeyId",
+            "@type": "xsd:string"
           },
-          "amendmentsData":{
-            "@id":"polygon-vocab:amendmentsData",
-            "@context":{
-              "citizenship":{
-                "@id":"polygon-vocab:amendmentsData.citizenship",
-                "@type":"xsd:string"
-              },
-              "documentType":{
-                "@id":"polygon-vocab:amendmentsData.documentType",
-                "@type":"xsd:string"
-              },
-              "firstName":{
-                "@id":"polygon-vocab:amendmentsData.firstName",
-                "@type":"xsd:string"
-              },
-              "lastName":{
-                "@id":"polygon-vocab:amendmentsData.lastName",
-                "@type":"xsd:string"
-              },
-              "gender":{
-                "@id":"polygon-vocab:amendmentsData.gender",
-                "@type":"xsd:string"
-              },
-              "addressLine1":{
-                "@id":"polygon-vocab:amendmentsData.addressLine1",
-                "@type":"xsd:string"
-              },
-              "addressLine2":{
-                "@id":"polygon-vocab:amendmentsData.addressLine2",
-                "@type":"xsd:string"
-              },
-              "birthday":{
-                "@id":"polygon-vocab:amendmentsData.birthday",
-                "@type":"xsd:string"
-              },
-              "placeOfBirth":{
-                "@id":"polygon-vocab:amendmentsData.placeOfBirth",
-                "@type":"xsd:string"
-              },
-              "countryOfResidence":{
-                "@id":"polygon-vocab:amendmentsData.countryOfResidence",
-                "@type":"xsd:string"
-              },
-              "age":{
-                "@id":"polygon-vocab:amendmentsData.age",
-                "@type":"xsd:integer"
-              },
-              "city":{
-                "@id":"polygon-vocab:amendmentsData.city",
-                "@type":"xsd:string"
-              },
-              "province":{
-                "@id":"polygon-vocab:amendmentsData.province",
-                "@type":"xsd:string"
-              },
-              "postalCode":{
-                "@id":"polygon-vocab:amendmentsData.postalCode",
-                "@type":"xsd:string"
-              },
-              "emailAddress":{
-                "@id":"polygon-vocab:amendmentsData.emailAddress",
-                "@type":"xsd:string"
-              },
-              "phoneNumber":{
-                "@id":"polygon-vocab:amendmentsData.phoneNumber",
-                "@type":"xsd:string"
-              },
-              "countryOfBirth":{
-                "@id":"polygon-vocab:amendmentsData.countryOfBirth",
-                "@type":"xsd:string"
-              },
-              "middleName":{
-                "@id":"polygon-vocab:amendmentsData.middleName",
-                "@type":"xsd:string"
-              }
-            }
+          "amendmentsData": {
+            "@id": "vocab:amendmentsData",
+            "@type": "@json"
           },
-          "originalData":{
-            "@id":"polygon-vocab:originalData",
-            "@context":{
-              "citizenship":{
-                "@id":"polygon-vocab:originalData.citizenship",
-                "@type":"xsd:string"
-              },
-              "documentType":{
-                "@id":"polygon-vocab:originalData.documentType",
-                "@type":"xsd:string"
-              },
-              "firstName":{
-                "@id":"polygon-vocab:originalData.firstName",
-                "@type":"xsd:string"
-              },
-              "lastName":{
-                "@id":"polygon-vocab:originalData.lastName",
-                "@type":"xsd:string"
-              },
-              "gender":{
-                "@id":"polygon-vocab:originalData.gender",
-                "@type":"xsd:string"
-              },
-              "addressLine1":{
-                "@id":"polygon-vocab:originalData.addressLine1",
-                "@type":"xsd:string"
-              },
-              "addressLine2":{
-                "@id":"polygon-vocab:originalData.addressLine2",
-                "@type":"xsd:string"
-              },
-              "birthday":{
-                "@id":"polygon-vocab:originalData.birthday",
-                "@type":"xsd:string"
-              },
-              "placeOfBirth":{
-                "@id":"polygon-vocab:originalData.placeOfBirth",
-                "@type":"xsd:string"
-              },
-              "countryOfResidence":{
-                "@id":"polygon-vocab:originalData.countryOfResidence",
-                "@type":"xsd:string"
-              },
-              "age":{
-                "@id":"polygon-vocab:originalData.age",
-                "@type":"xsd:integer"
-              },
-              "city":{
-                "@id":"polygon-vocab:originalData.city",
-                "@type":"xsd:string"
-              },
-              "province":{
-                "@id":"polygon-vocab:originalData.province",
-                "@type":"xsd:string"
-              },
-              "postalCode":{
-                "@id":"polygon-vocab:originalData.postalCode",
-                "@type":"xsd:string"
-              },
-              "emailAddress":{
-                "@id":"polygon-vocab:originalData.emailAddress",
-                "@type":"xsd:string"
-              },
-              "phoneNumber":{
-                "@id":"polygon-vocab:originalData.phoneNumber",
-                "@type":"xsd:string"
-              },
-              "countryOfBirth":{
-                "@id":"polygon-vocab:originalData.countryOfBirth",
-                "@type":"xsd:string"
-              },
-              "middleName":{
-                "@id":"polygon-vocab:originalData.middleName",
-                "@type":"xsd:string"
-              }
-            }
+          "originalData": {
+            "@id": "vocab:originalData",
+            "@type": "@json"
           },
-          "personalDetails":{
-            "@id":"polygon-vocab:personalDetails",
-            "@type":"@json"
+          "personalDetails": {
+            "@id": "vocab:personalDetails",
+            "@type": "@json"
           }
-        },
-        "@id":"urn:uuid:03067b76-45e8-11ee-be56-0242ac120002"
+        }
       }
     }
   ]
