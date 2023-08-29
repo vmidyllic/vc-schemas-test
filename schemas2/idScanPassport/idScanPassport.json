@@ -1,90 +1,25 @@
 {
-  "$schema": "http://json-schema.org/draft-07/schema#",
-  "type": "object",
   "$metadata": {
     "uris": {
-      "jsonLdContext": "https://raw.githubusercontent.com/NexeraProtocol/vc-schemas/development/examples/idScanPassport/idScanPassport.jsonld",
-      "jsonSchema": "https://raw.githubusercontent.com/NexeraProtocol/vc-schemas/development/examples/idScanPassport/idScanPassport.json"
+      "jsonLdContext": "https://raw.githubusercontent.com/NexeraProtocol/vc-schemas/NEXID-1402-polygon-id-schema-builder-integration/schemas2/idScanPassport/idScanPassport.jsonld",
     },
     "type": "IDScanPassport",
-    "version": "1.0"
+    "version": "1.7"
   },
-  "required": [
-    "@context",
-    "id",
-    "type",
-    "issuanceDate",
-    "credentialSubject",
-    "credentialSchema",
-    "credentialStatus",
-    "issuer"
-  ],
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "description": "IDScanPassport schema",
+  "title": "IDScanPassport",
   "properties": {
-    "@context": {
-      "type": ["string", "array", "object"]
-    },
-    "id": {
-      "type": "string"
-    },
-    "type": {
-      "type": ["string", "array"],
-      "items": {
-        "type": "string"
-      }
-    },
-    "issuer": {
-      "type": ["string", "object"],
-      "format": "uri",
-      "required": ["id"],
-      "properties": {
-        "id": {
-          "type": "string",
-          "format": "uri"
-        }
-      }
-    },
-    "issuanceDate": {
-      "type": "string",
-      "format": "date-time"
-    },
-    "expirationDate": {
-      "type": "string",
-      "format": "date-time"
-    },
-    "credentialSchema": {
-      "type": "object",
-      "required": ["id", "type"],
-      "properties": {
-        "id": {
-          "type": "string",
-          "format": "uri"
-        },
-        "type": {
-          "type": "string"
-        }
-      }
-    },
-    "subjectPosition": {
-      "type": "string",
-      "enum": ["none", "index", "value"]
-    },
-    "merklizationRootPosition": {
-      "type": "string",
-      "enum": ["none", "index", "value"]
-    },
-    "revNonce": {
-      "type": "integer"
-    },
-    "version": {
-      "type": "integer"
-    },
-    "updatable": {
-      "type": "boolean"
-    },
     "credentialSubject": {
+      "description": "Stores the data of the credential",
+      "title": "Credential subject",
       "type": "object",
+      "required": ["id", "journeyId", "base64", "name", "documentType"],
       "properties": {
         "id": {
+          "description": "Stores the DID of the subject that owns the credential",
+          "title": "Credential subject ID",
+          "format": "uri",
           "type": "string"
         },
         "journeyId": {
@@ -108,14 +43,72 @@
           "description": "Type of the document (e.g. image/jpeg, image/png)",
           "type": "string"
         }
+      }
+    },
+    "@context": {
+      "type": ["string", "array", "object"]
+    },
+    "expirationDate": {
+      "format": "date-time",
+      "type": "string"
+    },
+    "id": {
+      "type": "string"
+    },
+    "issuanceDate": {
+      "format": "date-time",
+      "type": "string"
+    },
+    "issuer": {
+      "type": [
+        "string",
+        "object"
+      ],
+      "format": "uri",
+      "properties": {
+        "id": {
+          "format": "uri",
+          "type": "string"
+        }
+      },
+      "required": [
+        "id"
+      ]
+    },
+    "type": {
+      "type": [
+        "string",
+        "array"
+      ],
+      "items": {
+        "type": "string"
+      }
+    },
+    "credentialSchema": {
+      "properties": {
+        "id": {
+          "format": "uri",
+          "type": "string"
+        },
+        "type": {
+          "type": "string"
+        }
       },
       "required": [
         "id",
-        "journeyId",
-        "base64",
-        "name",
-        "documentType"
-      ]
+        "type"
+      ],
+      "type": "object"
     }
-  }
+  },
+  "required": [
+    "credentialSubject",
+    "@context",
+    "id",
+    "issuanceDate",
+    "issuer",
+    "type",
+    "credentialSchema"
+  ],
+  "type": "object"
 }
