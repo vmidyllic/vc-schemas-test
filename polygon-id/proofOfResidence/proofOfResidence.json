@@ -1,7 +1,7 @@
 {
   "$metadata": {
     "uris": {
-      "jsonLdContext": "https://raw.githubusercontent.com/NexeraProtocol/vc-schemas/NEXID-1402-polygon-id-schema-builder-integration/schemas2/proofOfResidence/proofOfResidence.jsonld"
+      "jsonLdContext": "https://raw.githubusercontent.com/NexeraProtocol/vc-schemas/NEXID-1402-polygon-id-schema-builder-integration/polygon-id/proofOfResidence/proofOfResidence.jsonld"
     },
     "type": "ProofOfResidence",
     "version": "1.7"
