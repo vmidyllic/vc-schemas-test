@@ -27,6 +27,9 @@ jobs:
           # Replace "/development/" with "/staging/" in all schemas
           find examples/**/*.json -type f -exec sed -i -e 's/\/development\//\/staging\//g' {} +
           find examples/**/*.jsonld -type f -exec sed -i -e 's/\/development\//\/staging\//g' {} +
+          
+          find polygon-id/**/*.json -type f -exec sed -i -e 's/\/development\//\/staging\//g' {} +
+          find polygon-id/**/*.jsonld -type f -exec sed -i -e 's/\/development\//\/staging\//g' {} +
       - name: Prepare commmit
         run: |
           git add .
