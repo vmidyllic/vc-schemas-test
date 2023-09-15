@@ -332,7 +332,25 @@
                 "ItemCheckDecisionBands": {
                   "description": "ItemCheckDecisionBands",
                   "title": "ItemCheckDecisionBands",
-                  "properties": {},
+                  "properties": {
+                    "GlobalItemCheckDecisionBands": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "properties": {
+                          "ID": {
+                            "type": "integer"
+                          },
+                          "BandScore": {
+                            "type": "integer"
+                          },
+                          "BandText": {
+                            "type": "string"
+                          }
+                        }
+                      }
+                    }
+                  },
                   "required": [],
                   "type": "object"
                 }
