@@ -2,14 +2,14 @@
   "@context": [
     {
       "@protected": true,
-      "@version": 2.2,
+      "@version": 1.1,
       "id": "@id",
       "type": "@type",
       "ID3": {
         "@context": {
           "@propagate": true,
           "@protected": true,
-          "polygon-vocab": "urn:uuid:d7e154ab-385f-4b96-a3a6-61ee8311078b#",
+          "polygon-vocab": "urn:uuid:22972815-4063-4841-ad3c-9b747cf9321d#",
           "xsd": "http://www.w3.org/2001/XMLSchema#",
           "journeyId": {
             "@id": "polygon-vocab:journeyId",
@@ -297,7 +297,7 @@
               },
               "age": {
                 "@id": "polygon-vocab:age",
-                "@type": "xsd:integer"
+                "@type": "xsd:string"
               },
               "city": {
                 "@id": "polygon-vocab:city",
@@ -331,7 +331,7 @@
             "@id": "polygon-vocab:personalDetails"
           }
         },
-        "@id": "urn:uuid:df58ce9d-97b7-4927-afd3-44106ff679ba"
+        "@id": "urn:uuid:3d0e2bb7-51be-4f1a-baac-e685507cb9f9"
       }
     }
   ]
