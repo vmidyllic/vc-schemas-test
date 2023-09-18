@@ -3,7 +3,7 @@
     "uris": {
       "jsonLdContext": "https://raw.githubusercontent.com/NexeraProtocol/vc-schemas/NEXID-1502-fix-id3-schemas/polygon-id/id3/id3.jsonld"
     },
-    "version": "2.2.1",
+    "version": "2.4.0.1",
     "type": "ID3"
   },
   "$schema": "https://json-schema.org/draft/2020-12/schema",
