@@ -4,16 +4,16 @@
       "jsonLdContext": "https://raw.githubusercontent.com/NexeraProtocol/vc-schemas/development/polygon-id/proofOfResidence/proofOfResidence.jsonld"
     },
     "type": "ProofOfResidence",
-    "version": "2.1"
+    "version": "2.3.0"
   },
   "$schema": "http://json-schema.org/draft-07/schema#",
   "description": "A proof of residence credential",
   "title": "ProofOfResidence",
   "properties": {
     "credentialSubject": {
-      "description":"Stores the data of the credential",
-      "title":"Credential subject",
-      "type":"object",
+      "description": "Stores the data of the credential",
+      "title": "Credential subject",
+      "type": "object",
       "properties": {
         "id": {
           "type": "string"
@@ -54,67 +54,52 @@
         "documentType"
       ]
     },
-    "@context":{
-      "type":[
-        "string",
-        "array",
-        "object"
-      ]
+    "@context": {
+      "type": ["string", "array", "object"]
     },
-    "expirationDate":{
-      "format":"date-time",
-      "type":"string"
+    "expirationDate": {
+      "format": "date-time",
+      "type": "string"
     },
-    "id":{
-      "type":"string"
+    "id": {
+      "type": "string"
     },
-    "issuanceDate":{
-      "format":"date-time",
-      "type":"string"
+    "issuanceDate": {
+      "format": "date-time",
+      "type": "string"
     },
-    "issuer":{
-      "type":[
-        "string",
-        "object"
-      ],
-      "format":"uri",
-      "properties":{
-        "id":{
-          "format":"uri",
-          "type":"string"
+    "issuer": {
+      "type": ["string", "object"],
+      "format": "uri",
+      "properties": {
+        "id": {
+          "format": "uri",
+          "type": "string"
         }
       },
-      "required":[
-        "id"
-      ]
+      "required": ["id"]
     },
-    "type":{
-      "type":[
-        "string",
-        "array"
-      ],
-      "items":{
-        "type":"string"
+    "type": {
+      "type": ["string", "array"],
+      "items": {
+        "type": "string"
       }
     },
-    "credentialSchema":{
-      "properties":{
-        "id":{
-          "format":"uri",
-          "type":"string"
+    "credentialSchema": {
+      "properties": {
+        "id": {
+          "format": "uri",
+          "type": "string"
         },
-        "type":{
-          "type":"string"
+        "type": {
+          "type": "string"
         }
       },
-      "required":[
-        "id",
-        "type"
-      ],
-      "type":"object"
+      "required": ["id", "type"],
+      "type": "object"
     }
   },
-  "required":[
+  "required": [
     "credentialSubject",
     "@context",
     "id",
@@ -123,5 +108,5 @@
     "type",
     "credentialSchema"
   ],
-  "type":"object"
+  "type": "object"
 }
