@@ -634,6 +634,35 @@
                     "@id": "polygon-vocab:Country",
                     "@type": "xsd:string"
                   },
+                  "ItemCheckDecisionBands": {
+                    "@id": "polygon-vocab:ItemCheckDecisionBands",
+                    "@context": {
+                      "GlobalItemCheckDecisionBands": {
+                        "@id": "polygon-vocab:ItemCheckDecisionBands.GlobalItemCheckDecisionBands",
+                        "@type": "xsd:array",
+                        "@context": {
+                          "xsd:object": {
+                            "@id": "polygon-vocab:ItemCheckDecisionBands.GlobalItemCheckDecisionBands.xsd:object",
+                            "@type": "xsd:object",
+                            "@context": {
+                              "ID": {
+                                "@id": "polygon-vocab:ItemCheckDecisionBands.GlobalItemCheckDecisionBands.xsd:object.ID",
+                                "@type": "xsd:integer"
+                              },
+                              "BandScore": {
+                                "@id": "polygon-vocab:ItemCheckDecisionBands.GlobalItemCheckDecisionBands.xsd:object.BandScore",
+                                "@type": "xsd:integer"
+                              },
+                              "BandText": {
+                                "@id": "polygon-vocab:ItemCheckDecisionBands.GlobalItemCheckDecisionBands.xsd:object.BandText",
+                                "@type": "xsd:string"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
                   "ResultCodes": {
                     "@id": "polygon-vocab:ResultCodes",
                     "@context": {
