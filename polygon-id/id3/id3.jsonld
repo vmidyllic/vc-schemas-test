@@ -267,31 +267,31 @@
                             "@id": "polygon-vocab:ResultCodes.GlobalItemCheckResultCodes.SanctionsMatches",
                             "@type": "xsd:object",
                             "@context": {
-                              "GlobalSanctionsMatch": {
-                                "@id": "polygon-vocab:ResultCodes.GlobalItemCheckResultCodes.SanctionsMatches.GlobalSanctionsMatch",
+                              "GlobalSanctionsPosition": {
+                                "@id": "polygon-vocab:ResultCodes.GlobalItemCheckResultCodes.SanctionsMatches.GlobalSanctionsPosition",
                                 "@type": "xsd:array",
                                 "@context": {
                                   "SanctionID": {
-                                    "@id": "polygon-vocab:ResultCodes.GlobalItemCheckResultCodes.SanctionsMatches.GlobalSanctionsMatch.SanctionID",
+                                    "@id": "polygon-vocab:ResultCodes.GlobalItemCheckResultCodes.SanctionsMatches.GlobalSanctionsPosition.SanctionID",
                                     "@type": [
                                       "xsd:integer",
                                       "xsd:string"
                                     ]
                                   },
                                   "Url": {
-                                    "@id": "polygon-vocab:ResultCodes.GlobalItemCheckResultCodes.SanctionsMatches.GlobalSanctionsMatch.Url",
+                                    "@id": "polygon-vocab:ResultCodes.GlobalItemCheckResultCodes.SanctionsMatches.GlobalSanctionsPosition.Url",
                                     "@type": "xsd:string"
                                   },
                                   "Rank": {
-                                    "@id": "polygon-vocab:ResultCodes.GlobalItemCheckResultCodes.SanctionsMatches.GlobalSanctionsMatch.Rank",
+                                    "@id": "polygon-vocab:ResultCodes.GlobalItemCheckResultCodes.SanctionsMatches.GlobalSanctionsPosition.Rank",
                                     "@type": "xsd:integer"
                                   },
                                   "CaseID": {
-                                    "@id": "polygon-vocab:ResultCodes.GlobalItemCheckResultCodes.SanctionsMatches.GlobalSanctionsMatch.CaseID",
+                                    "@id": "polygon-vocab:ResultCodes.GlobalItemCheckResultCodes.SanctionsMatches.GlobalSanctionsPosition.CaseID",
                                     "@type": "xsd:string"
                                   },
                                   "SearchID": {
-                                    "@id": "polygon-vocab:ResultCodes.GlobalItemCheckResultCodes.SanctionsMatches.GlobalSanctionsMatch.SearchID",
+                                    "@id": "polygon-vocab:ResultCodes.GlobalItemCheckResultCodes.SanctionsMatches.GlobalSanctionsPosition.SearchID",
                                     "@type": "xsd:string"
                                   }
                                 }
@@ -761,31 +761,31 @@
                             "@id": "polygon-vocab:ResultCodes.GlobalItemCheckResultCodes.SanctionsMatches",
                             "@type": "xsd:object",
                             "@context": {
-                              "GlobalSanctionsMatch": {
-                                "@id": "polygon-vocab:ResultCodes.GlobalItemCheckResultCodes.SanctionsMatches.GlobalSanctionsMatch",
+                              "GlobalSanctionsPosition": {
+                                "@id": "polygon-vocab:ResultCodes.GlobalItemCheckResultCodes.SanctionsMatches.GlobalSanctionsPosition",
                                 "@type": "xsd:array",
                                 "@context": {
                                   "SanctionID": {
-                                    "@id": "polygon-vocab:ResultCodes.GlobalItemCheckResultCodes.SanctionsMatches.GlobalSanctionsMatch.SanctionID",
+                                    "@id": "polygon-vocab:ResultCodes.GlobalItemCheckResultCodes.SanctionsMatches.GlobalSanctionsPosition.SanctionID",
                                     "@type": [
                                       "xsd:integer",
                                       "xsd:string"
                                     ]
                                   },
                                   "Url": {
-                                    "@id": "polygon-vocab:ResultCodes.GlobalItemCheckResultCodes.SanctionsMatches.GlobalSanctionsMatch.Url",
+                                    "@id": "polygon-vocab:ResultCodes.GlobalItemCheckResultCodes.SanctionsMatches.GlobalSanctionsPosition.Url",
                                     "@type": "xsd:string"
                                   },
                                   "Rank": {
-                                    "@id": "polygon-vocab:ResultCodes.GlobalItemCheckResultCodes.SanctionsMatches.GlobalSanctionsMatch.Rank",
+                                    "@id": "polygon-vocab:ResultCodes.GlobalItemCheckResultCodes.SanctionsMatches.GlobalSanctionsPosition.Rank",
                                     "@type": "xsd:integer"
                                   },
                                   "CaseID": {
-                                    "@id": "polygon-vocab:ResultCodes.GlobalItemCheckResultCodes.SanctionsMatches.GlobalSanctionsMatch.CaseID",
+                                    "@id": "polygon-vocab:ResultCodes.GlobalItemCheckResultCodes.SanctionsMatches.GlobalSanctionsPosition.CaseID",
                                     "@type": "xsd:string"
                                   },
                                   "SearchID": {
-                                    "@id": "polygon-vocab:ResultCodes.GlobalItemCheckResultCodes.SanctionsMatches.GlobalSanctionsMatch.SearchID",
+                                    "@id": "polygon-vocab:ResultCodes.GlobalItemCheckResultCodes.SanctionsMatches.GlobalSanctionsPosition.SearchID",
                                     "@type": "xsd:string"
                                   }
                                 }

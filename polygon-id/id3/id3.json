@@ -3,7 +3,7 @@
     "uris": {
       "jsonLdContext": "https://raw.githubusercontent.com/NexeraProtocol/vc-schemas/NEXID-1502-fix-id3-schemas/polygon-id/id3/id3.jsonld"
     },
-    "version": "2.2",
+    "version": "2.2.1",
     "type": "ID3"
   },
   "$schema": "https://json-schema.org/draft/2020-12/schema",
@@ -297,7 +297,7 @@
                           "SanctionsMatches": {
                             "type": "object",
                             "properties": {
-                              "GlobalSanctionsMatch": {
+                              "GlobalSanctionsPosition": {
                                 "type": "array",
                                 "items": {
                                   "type": "object",
@@ -334,6 +334,8 @@
                   "title": "ItemCheckDecisionBands",
                   "properties": {
                     "GlobalItemCheckDecisionBands": {
+                      "description": "GlobalItemCheckDecisionBands",
+                      "title": "GlobalItemCheckDecisionBands",
                       "type": "array",
                       "items": {
                         "type": "object",
@@ -654,6 +656,33 @@
                   "title": "Country",
                   "type": "string"
                 },
+                "ItemCheckDecisionBands": {
+                  "description": "ItemCheckDecisionBands",
+                  "title": "ItemCheckDecisionBands",
+                  "properties": {
+                    "GlobalItemCheckDecisionBands": {
+                      "description": "GlobalItemCheckDecisionBands",
+                      "title": "GlobalItemCheckDecisionBands",
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "properties": {
+                          "ID": {
+                            "type": "integer"
+                          },
+                          "BandScore": {
+                            "type": "integer"
+                          },
+                          "BandText": {
+                            "type": "string"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "required": [],
+                  "type": "object"
+                },
                 "ResultCodes": {
                   "description": "ResultCodes",
                   "title": "ResultCodes",
@@ -769,7 +798,7 @@
                           "SanctionsMatches": {
                             "type": "object",
                             "properties": {
-                              "GlobalSanctionsMatch": {
+                              "GlobalSanctionsPosition": {
                                 "type": "array",
                                 "items": {
                                   "type": "object",
