@@ -336,6 +336,7 @@
               },
               "pepIntelligenceResult": {
                 "@id": "polygon-vocab:pepIntelligenceResult",
+                "@type": "xsd:array",
                 "@context": {
                   "Fullname": {
                     "@id": "polygon-vocab:pepIntelligenceResult.Fullname",
@@ -441,6 +442,7 @@
               },
               "sanctionsEnforcementsResult": {
                 "@id": "polygon-vocab:sanctionsEnforcementsResult",
+                "@type": "xsd:array",
                 "@context": {
                   "Fullname": {
                     "@id": "polygon-vocab:sanctionsEnforcementsResult.Fullname",
@@ -799,6 +801,7 @@
               },
               "pepIntelligenceResult": {
                 "@id": "polygon-vocab:pepIntelligenceResult",
+                "@type": "xsd:array",
                 "@context": {
                   "Fullname": {
                     "@id": "polygon-vocab:pepIntelligenceResult.Fullname",
@@ -904,6 +907,7 @@
               },
               "sanctionsEnforcementsResult": {
                 "@id": "polygon-vocab:sanctionsEnforcementsResult",
+                "@type": "xsd:array",
                 "@context": {
                   "Fullname": {
                     "@id": "polygon-vocab:sanctionsEnforcementsResult.Fullname",
