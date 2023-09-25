@@ -333,21 +333,21 @@
                 }
               }
             },
-            "pepIntelligenceResult": {
-              "type": "array",
-              "items": {
-                "type": "object",
-                "properties": {
-                  "Fullname": {
-                    "type": "string"
+            "pepIntelligenceResult":{
+              "type":"array",
+              "items":{
+                "type":"object",
+                "properties":{
+                  "Fullname":{
+                    "type":"string"
                   },
-                  "Aliases": {
-                    "type": "object",
-                    "properties": {
-                      "a:string": {
-                        "type": "array",
-                        "items": {
-                          "type": "string"
+                  "Aliases":{
+                    "type":"object",
+                    "properties":{
+                      "a:string":{
+                        "type":"array",
+                        "items":{
+                          "type":"string"
                         }
                       }
                     }
@@ -818,7 +818,7 @@
                             "type": "integer"
                           },
                           "Year": {
-                            "type": "integer"
+                            "type": "integer"g
                           }
                         }
                       }
