@@ -4,7 +4,7 @@
       "jsonLdContext": "https://raw.githubusercontent.com/NexeraProtocol/vc-schemas/staging/polygon-id/idscan/idscan.jsonld"
     },
     "type": "IDScan",
-    "version": "2.0"
+    "version": "2.3.0"
   },
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "description": "IDscan schema",
@@ -242,10 +242,7 @@
       "type": "string"
     },
     "issuer": {
-      "type": [
-        "string",
-        "object"
-      ],
+      "type": ["string", "object"],
       "format": "uri",
       "properties": {
         "id": {
@@ -253,15 +250,10 @@
           "type": "string"
         }
       },
-      "required": [
-        "id"
-      ]
+      "required": ["id"]
     },
     "type": {
-      "type": [
-        "string",
-        "array"
-      ],
+      "type": ["string", "array"],
       "items": {
         "type": "string"
       }
@@ -276,10 +268,7 @@
           "type": "string"
         }
       },
-      "required": [
-        "id",
-        "type"
-      ],
+      "required": ["id", "type"],
       "type": "object"
     }
   },
