@@ -273,10 +273,7 @@
                                 "@context": {
                                   "SanctionID": {
                                     "@id": "polygon-vocab:ResultCodes.GlobalItemCheckResultCodes.SanctionsMatches.GlobalSanctionsPosition.SanctionID",
-                                    "@type": [
-                                      "xsd:integer",
-                                      "xsd:string"
-                                    ]
+                                    "@type": "xsd:integer"
                                   },
                                   "Url": {
                                     "@id": "polygon-vocab:ResultCodes.GlobalItemCheckResultCodes.SanctionsMatches.GlobalSanctionsPosition.Url",
@@ -309,20 +306,20 @@
                         "@id": "polygon-vocab:ItemCheckDecisionBands.GlobalItemCheckDecisionBands",
                         "@type": "xsd:array",
                         "@context": {
-                          "xsd:object": {
-                            "@id": "polygon-vocab:ItemCheckDecisionBands.GlobalItemCheckDecisionBands.xsd:object",
+                          "wrongterm2": {
+                            "@id": "polygon-vocab:ItemCheckDecisionBands.GlobalItemCheckDecisionBands.wrongterm2",
                             "@type": "xsd:object",
                             "@context": {
                               "ID": {
-                                "@id": "polygon-vocab:ItemCheckDecisionBands.GlobalItemCheckDecisionBands.xsd:object.ID",
+                                "@id": "polygon-vocab:ItemCheckDecisionBands.GlobalItemCheckDecisionBands.wrongterm2.ID",
                                 "@type": "xsd:integer"
                               },
                               "BandScore": {
-                                "@id": "polygon-vocab:ItemCheckDecisionBands.GlobalItemCheckDecisionBands.xsd:object.BandScore",
+                                "@id": "polygon-vocab:ItemCheckDecisionBands.GlobalItemCheckDecisionBands.wrongterm2.BandScore",
                                 "@type": "xsd:integer"
                               },
                               "BandText": {
-                                "@id": "polygon-vocab:ItemCheckDecisionBands.GlobalItemCheckDecisionBands.xsd:object.BandText",
+                                "@id": "polygon-vocab:ItemCheckDecisionBands.GlobalItemCheckDecisionBands.wrongterm2.BandText",
                                 "@type": "xsd:string"
                               }
                             }
@@ -346,12 +343,12 @@
                     "@id": "polygon-vocab:pepIntelligenceResult.Aliases",
                     "@type": "xsd:object",
                     "@context": {
-                      "a:string": {
-                        "@id": "polygon-vocab:pepIntelligenceResult.Aliases.a:string",
+                      "wronga": {
+                        "@id": "polygon-vocab:pepIntelligenceResult.Aliases.wronga",
                         "@type": "xsd:array",
                         "@context": {
-                          "xsd:string": {
-                            "@id": "polygon-vocab:pepIntelligenceResult.Aliases.a:string.xsd:string",
+                          "wronstring": {
+                            "@id": "polygon-vocab:pepIntelligenceResult.Aliases.wronga.xsd:string",
                             "@type": "xsd:string"
                           }
                         }
@@ -452,12 +449,12 @@
                     "@id": "polygon-vocab:sanctionsEnforcementsResult.SanctionsBodies",
                     "@type": "xsd:object",
                     "@context": {
-                      "a:string": {
-                        "@id": "polygon-vocab:sanctionsEnforcementsResult.SanctionsBodies.a:string",
+                      "wronga": {
+                        "@id": "polygon-vocab:sanctionsEnforcementsResult.SanctionsBodies.wronga",
                         "@type": "xsd:array",
                         "@context": {
-                          "xsd:integer": {
-                            "@id": "polygon-vocab:sanctionsEnforcementsResult.SanctionsBodies.a:string.xsd:integer",
+                          "wrongiteger": {
+                            "@id": "polygon-vocab:sanctionsEnforcementsResult.SanctionsBodies.wronga.wrongiteger",
                             "@type": "xsd:integer"
                           }
                         }
@@ -468,12 +465,12 @@
                     "@id": "polygon-vocab:sanctionsEnforcementsResult.Aliases",
                     "@type": "xsd:object",
                     "@context": {
-                      "a:string": {
-                        "@id": "polygon-vocab:sanctionsEnforcementsResult.Aliases.a:string",
+                      "wronga": {
+                        "@id": "polygon-vocab:sanctionsEnforcementsResult.Aliases.wronga",
                         "@type": "xsd:array",
                         "@context": {
-                          "xsd:string": {
-                            "@id": "polygon-vocab:sanctionsEnforcementsResult.Aliases.a:string.xsd:string",
+                          "wrongstring": {
+                            "@id": "polygon-vocab:sanctionsEnforcementsResult.Aliases.wronga.wrongstring",
                             "@type": "xsd:string"
                           }
                         }
@@ -641,20 +638,20 @@
                         "@id": "polygon-vocab:ItemCheckDecisionBands.GlobalItemCheckDecisionBands",
                         "@type": "xsd:array",
                         "@context": {
-                          "xsd:object": {
-                            "@id": "polygon-vocab:ItemCheckDecisionBands.GlobalItemCheckDecisionBands.xsd:object",
+                          "wrongterm": {
+                            "@id": "polygon-vocab:ItemCheckDecisionBands.GlobalItemCheckDecisionBands.wrongterm",
                             "@type": "xsd:object",
                             "@context": {
                               "ID": {
-                                "@id": "polygon-vocab:ItemCheckDecisionBands.GlobalItemCheckDecisionBands.xsd:object.ID",
+                                "@id": "polygon-vocab:ItemCheckDecisionBands.GlobalItemCheckDecisionBands.wrongterm.ID",
                                 "@type": "xsd:integer"
                               },
                               "BandScore": {
-                                "@id": "polygon-vocab:ItemCheckDecisionBands.GlobalItemCheckDecisionBands.xsd:object.BandScore",
+                                "@id": "polygon-vocab:ItemCheckDecisionBands.GlobalItemCheckDecisionBands.wrongterm.BandScore",
                                 "@type": "xsd:integer"
                               },
                               "BandText": {
-                                "@id": "polygon-vocab:ItemCheckDecisionBands.GlobalItemCheckDecisionBands.xsd:object.BandText",
+                                "@id": "polygon-vocab:ItemCheckDecisionBands.GlobalItemCheckDecisionBands.wrongterm.BandText",
                                 "@type": "xsd:string"
                               }
                             }
@@ -796,10 +793,7 @@
                                 "@context": {
                                   "SanctionID": {
                                     "@id": "polygon-vocab:ResultCodes.GlobalItemCheckResultCodes.SanctionsMatches.GlobalSanctionsPosition.SanctionID",
-                                    "@type": [
-                                      "xsd:integer",
-                                      "xsd:string"
-                                    ]
+                                    "@type": "xsd:integer"
                                   },
                                   "Url": {
                                     "@id": "polygon-vocab:ResultCodes.GlobalItemCheckResultCodes.SanctionsMatches.GlobalSanctionsPosition.Url",
@@ -840,12 +834,12 @@
                     "@id": "polygon-vocab:pepIntelligenceResult.Aliases",
                     "@type": "xsd:object",
                     "@context": {
-                      "a:string": {
-                        "@id": "polygon-vocab:pepIntelligenceResult.Aliases.a:string",
+                      "wronga": {
+                        "@id": "polygon-vocab:pepIntelligenceResult.Aliases.wronga",
                         "@type": "xsd:array",
                         "@context": {
-                          "xsd:string": {
-                            "@id": "polygon-vocab:pepIntelligenceResult.Aliases.a:string.xsd:string",
+                          "wrongstring": {
+                            "@id": "polygon-vocab:pepIntelligenceResult.Aliases.wronga.wrongstring",
                             "@type": "xsd:string"
                           }
                         }
@@ -946,12 +940,12 @@
                     "@id": "polygon-vocab:sanctionsEnforcementsResult.SanctionsBodies",
                     "@type": "xsd:object",
                     "@context": {
-                      "a:string": {
-                        "@id": "polygon-vocab:sanctionsEnforcementsResult.SanctionsBodies.a:string",
+                      "wronga": {
+                        "@id": "polygon-vocab:sanctionsEnforcementsResult.SanctionsBodies.wronga",
                         "@type": "xsd:array",
                         "@context": {
-                          "xsd:integer": {
-                            "@id": "polygon-vocab:sanctionsEnforcementsResult.SanctionsBodies.a:string.xsd:integer",
+                          "wronginteger": {
+                            "@id": "polygon-vocab:sanctionsEnforcementsResult.SanctionsBodies.wronga.wronginteger",
                             "@type": "xsd:integer"
                           }
                         }
@@ -962,12 +956,12 @@
                     "@id": "polygon-vocab:sanctionsEnforcementsResult.Aliases",
                     "@type": "xsd:object",
                     "@context": {
-                      "a:string": {
-                        "@id": "polygon-vocab:sanctionsEnforcementsResult.Aliases.a:string",
+                      "wronga": {
+                        "@id": "polygon-vocab:sanctionsEnforcementsResult.Aliases.wronga",
                         "@type": "xsd:array",
                         "@context": {
-                          "xsd:string": {
-                            "@id": "polygon-vocab:sanctionsEnforcementsResult.Aliases.a:string.xsd:string",
+                          "wrongstring": {
+                            "@id": "polygon-vocab:sanctionsEnforcementsResult.Aliases.wronga.wrongstring",
                             "@type": "xsd:string"
                           }
                         }
