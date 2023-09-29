@@ -306,16 +306,12 @@
                         "@id": "polygon-vocab:ItemCheckDecisionBands.GlobalItemCheckDecisionBands",
                         "@type": "xsd:array",
                         "@context": {
-                          "wrongterm2": {
-                            "@id": "polygon-vocab:ItemCheckDecisionBands.GlobalItemCheckDecisionBands.wrongterm2",
-                            "@type": "xsd:object",
-                            "@context": {
                               "ID": {
                                 "@id": "polygon-vocab:ItemCheckDecisionBands.GlobalItemCheckDecisionBands.wrongterm2.ID",
                                 "@type": "xsd:integer"
                               },
-                              "BandScore": {
-                                "@id": "polygon-vocab:ItemCheckDecisionBands.GlobalItemCheckDecisionBands.wrongterm2.BandScore",
+                               "BandScore": {
+                                "@id": "polygon-vocab:ItemCheckDecisionBands.GlobalItemCheckDecisionBands.wrongterm.BandScore",
                                 "@type": "xsd:integer"
                               },
                               "BandText": {
@@ -323,8 +319,6 @@
                                 "@type": "xsd:string"
                               }
                             }
-                          }
-                        }
                       }
                     }
                   }
@@ -638,10 +632,6 @@
                         "@id": "polygon-vocab:ItemCheckDecisionBands.GlobalItemCheckDecisionBands",
                         "@type": "xsd:array",
                         "@context": {
-                          "wrongterm": {
-                            "@id": "polygon-vocab:ItemCheckDecisionBands.GlobalItemCheckDecisionBands.wrongterm",
-                            "@type": "xsd:object",
-                            "@context": {
                               "ID": {
                                 "@id": "polygon-vocab:ItemCheckDecisionBands.GlobalItemCheckDecisionBands.wrongterm.ID",
                                 "@type": "xsd:integer"
@@ -654,8 +644,6 @@
                                 "@id": "polygon-vocab:ItemCheckDecisionBands.GlobalItemCheckDecisionBands.wrongterm.BandText",
                                 "@type": "xsd:string"
                               }
-                            }
-                          }
                         }
                       }
                     }
@@ -1114,5 +1102,4 @@
         "@id": "urn:uuid:df58ce9d-97b7-4927-afd3-44106ff679ba"
       }
     }
-  ]
-}
+  ]}
