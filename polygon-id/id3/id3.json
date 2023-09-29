@@ -371,7 +371,7 @@
                   "Aliases": {
                     "type": "object",
                     "properties": {
-                      "a:string": {
+                      "wrongstring": {
                         "type": "array",
                         "items": {
                           "type": "string"
@@ -462,7 +462,7 @@
                   "SanctionsBodies": {
                     "type": "object",
                     "properties": {
-                      "a:string": {
+                      "wrongstring": {
                         "type": "array",
                         "items": {
                           "type": "integer"
@@ -473,7 +473,7 @@
                   "Aliases": {
                     "type": "object",
                     "properties": {
-                      "a:string": {
+                      "wrongstring": {
                         "type": "array",
                         "items": {
                           "type": "string"
@@ -845,7 +845,7 @@
                   "Aliases": {
                     "type": "object",
                     "properties": {
-                      "a:string": {
+                      "wrongstring": {
                         "type": "array",
                         "items": {
                           "type": "string"
@@ -936,7 +936,7 @@
                   "SanctionsBodies": {
                     "type": "object",
                     "properties": {
-                      "a:string": {
+                      "wrongstring": {
                         "type": "array",
                         "items": {
                           "type": "integer"
@@ -947,7 +947,7 @@
                   "Aliases": {
                     "type": "object",
                     "properties": {
-                      "a:string": {
+                      "wrongstring": {
                         "type": "array",
                         "items": {
                           "type": "string"
